@@ -6,5 +6,8 @@ public class Main {
     public static void main(String[] args) throws IOException, InterruptedException {
         BookRequest book = new BookRequest();
         book.searchingByTitle();
+
+        CoinGeckoRequest coin = new CoinGeckoRequest();
+        coin.searchCoinByName();
     }
 }
