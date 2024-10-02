@@ -9,5 +9,8 @@ public class Main {
 
         CoinGeckoRequest coin = new CoinGeckoRequest();
         coin.searchCoinByName();
+
+        TheMealDBRequest meal = new TheMealDBRequest();
+        meal.searchRecipeByName();
     }
 }
